@@ -26,7 +26,7 @@ Built with **LangGraph**, **FastAPI**, and robust LLM integration, this project 
 
 Below is the architecture for the local execution pipeline:
 
-```
+```mermaid
 graph TD
     A[Client UI / API Call] -->|Uploads Medical PDF| B(FastAPI Server)
     B --> C[PyMuPDF Text Extractor]
